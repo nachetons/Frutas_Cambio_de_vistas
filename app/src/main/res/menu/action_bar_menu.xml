@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_item"
+        android:icon="@drawable/ic_add_fruit"
+        android:title="Añadir elemento"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/list_item"
+        android:icon="@drawable/ic_list"
+        android:visible="false"
+        android:title="Reordenar"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/gridView"
+        android:icon="@drawable/ic_grid"
+        android:title="Añadir elemento"
+        app:showAsAction="ifRoom" />
+
+</menu>
